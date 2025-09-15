@@ -1,57 +1,87 @@
-# HSE Monitor Dashboard
+# 🛡️ HSE Monitor Dashboard
 
-A comprehensive **Health, Safety & Environment (HSE) analytics dashboard** built in PowerBI to track, analyze, and visualize workplace incidents, injuries, and near misses. This dashboard provides actionable insights for safety performance monitoring at site and business unit levels.
+A **Health, Safety & Environment (HSE) analytics dashboard** built in **PowerBI** to track, analyze, and visualize workplace incidents, injuries, and near misses. This dashboard provides **actionable insights** for safety performance monitoring across sites and business units. 📊
 
-## Project Overview
+---
 
-This dashboard is designed to help organizations understand safety trends, identify risk areas, and monitor incident severity across sites. Users can quickly view total incidents, near misses, injuries, vehicle incidents, and lost hours, as well as compare performance month-over-month.
+## 📝 Project Overview
 
-## Dashboards
+Workplace safety is critical for any organization. This dashboard helps **safety managers and stakeholders** monitor incidents, understand trends, and identify high-risk areas. Users can quickly view key safety metrics, compare monthly performance, and analyze injuries by type and site. 🏭
 
-![Minor Incidents Dashboard](./docs/dashboard_1.png)
-![Major Incidents Dashboard](./docs/dashboard_2.png)
-![Critical Incidents Dashboard](./docs/dashboard_3.png)
+---
 
-## Features
+## 📊 Dashboard Pages
 
-- **Severity-Based Pages**: Separate pages for **Minor, Major, and Critical** incidents.
-- **Filters**: Select **one year** and **one month** to view filtered data per page.
+The dashboard has **three severity-focused pages**:
+
+- **Minor Incidents** ⚠️  
+- **Major Incidents** 🔴  
+- **Critical Incidents** 🛑  
+
+Each page includes:  
+- Year & Month filters 🗓️  
+- Key metrics: total incidents, near misses, injuries, vehicle incidents, lost hours, and month-over-month change 🔄  
+- Incidents by **Site** and **Business Unit**  
+- Injuries by type: Finger ✋, Ankle 🦶, Arm 💪, Foot 🦵, Lower Back 🧍‍♂️  
+
+**Yearly trends** are shown in a line graph 📈 (total incidents, near misses, injuries, vehicle incidents, lost hours per month) for the entire year, unaffected by month filter.  
+
+![Minor Incidents Dashboard](./docs/dashboard_1.png)  
+![Major Incidents Dashboard](./docs/dashboard_2.png)  
+![Critical Incidents Dashboard](./docs/dashboard_3.png)  
+
+---
+
+## ⚡ Features
+
+- **Severity-Based Pages**: Minor, Major, Critical incidents  
+- **Interactive Filters**: Select year and month for focused insights 🗓️  
 - **Key Metrics**:
-  - Total Incidents
-  - Total Near Misses
-  - Total Injuries
-  - Total Vehicle Incidents
-  - Total Lost Hours
-  - Month-over-Month Percentage Change
+  - Total Incidents 🛑
+  - Total Near Misses ⚠️
+  - Total Injuries 🤕
+  - Total Vehicle Incidents 🚗
+  - Total Lost Hours ⏳
+  - Month-over-Month Change 🔄
 - **Detailed Analysis**:
-  - Incidents by **Site** and **Business Unit**
-  - Total injuries by **type** (Finger, Ankle, Arm, Foot, Lower Back, etc.)
-- **Yearly Trends**: Line graph showing **monthly totals** of incidents, injuries, near misses, vehicle incidents, and lost hours for the entire year (not affected by month filter).
+  - Incidents by **Site** and **Business Unit** 🏭  
+  - Injuries by type: Finger ✋, Ankle 🦶, Arm 💪, Foot 🦵, Lower Back 🧍‍♂️  
+- **Yearly Trends**: Monthly totals line graph 📉  
 
-## Dataset
+---
 
-The dataset includes:
+## 📂 Dataset Sample
 
 | Date       | Incidents | Near Miss | Lost Hours | Injuries | Vehicle Incidents | Site         | Business Unit | Severity | Most Frequent Injury |
 |------------|-----------|-----------|------------|----------|-----------------|--------------|---------------|---------|--------------------|
 | 18-May-23  | 9         | 5         | 0          | 1        | 1               | Hoveringham  | Transport     | Critical | Lower Back         |
 
-## Technologies
+The dataset tracks incidents, near misses, lost hours, and injuries across multiple sites and business units.  
 
-- **PowerBI** for dashboard creation and visualization
-- **Excel / CSV** for data handling and preprocessing
+---
 
-## Insights
+## 🛠️ Technologies
 
-This dashboard enables stakeholders to:
+- **PowerBI** 💻 – Dashboard creation and visualization  
+- **Excel / CSV** 📊 – Data handling and preprocessing  
 
-- Track incident severity and trends over time  
-- Identify high-risk sites or business units  
-- Monitor the effectiveness of safety interventions  
-- Compare monthly changes in incidents, injuries, and lost hours  
+---
 
+## 💡 Key Insights
 
-## Author
+This dashboard enables stakeholders to:  
 
-**Sanya**  Data Engineer & Analyst
+- Monitor incident severity and trends over time 📈  
+- Identify high-risk sites or business units 🏭  
+- Evaluate effectiveness of safety interventions ✅  
+- Compare monthly changes in incidents, injuries, and lost hours 🔄  
+
+---
+
+## 👩‍💻 Author
+
+**Sanya** – Data Engineer & Analyst  
+
+---
+
 
