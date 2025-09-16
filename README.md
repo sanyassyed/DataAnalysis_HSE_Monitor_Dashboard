@@ -79,7 +79,7 @@ The data was sourced from organizational **HSE records** and includes:
 
 1. **Data Preprocessing**: Cleaned and standardized in Excel/CSV.
 2. **ETL in PowerBI**: Loaded and transformed data for consistency.
-2. **Data Modelling**: Developed Dimensional modelling by creating dimensions like `Date`
+2. **Data Modelling**: Developed Dimensional modelling by creating dimensions like `Calendar`
 3. **Dashboard Design**: Built interactive dashboards with filters.
 4. **Visualization**: Trends and breakdowns by severity, site, and injury type.
 5. **Yearly Analysis**: Line charts for long-term trends, unaffected by month filters.
@@ -125,7 +125,3 @@ The data was sourced from organizational **HSE records** and includes:
 ## 👩‍💻 Author
 
 **Sanya** – *Data Engineer & Analyst*
-
----
-
-Would you like me to also add **README visuals placeholders** (e.g., `![Minor Dashboard Screenshot](images/minor.png)`) so that you can later drop in screenshots of your dashboards? That could make it portfolio-ready.
